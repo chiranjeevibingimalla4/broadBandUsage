@@ -1,4 +1,3 @@
-
 import React from "react";
 import { BarChart, Bar, XAxis, ResponsiveContainer } from 'recharts';
 import json from "./usageData";
