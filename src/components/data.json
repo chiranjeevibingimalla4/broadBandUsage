@@ -1,4 +1,5 @@
-const json = {
+
+{
     "profile": {
         "serviceId": "6753654365465466",
         "broadbandServiceInstanceId": "14158784095873212494197",
@@ -221,24 +222,24 @@ const json = {
                     "thresholdNotificationSentItem": []
                 }
             },
-            // {
-            //     "billingPeriod": {
-            //         "startDate": "2023-09-01T00:00:00+01:00",
-            //         "endDate": "2023-09-30T00:00:00+01:00"
-            //     },
-            //     "productList": {
-            //         "productItem": [{
-            //             "productId": 13661,
-            //             "accumulatedUsage": 6,
-            //             "productCapacity": 0,
-            //             "modificationReason": "SELF",
-            //             "effectiveDateTime": "2024-06-20T00:00:00+01:00"
-            //         }]
-            //     },
-            //     "thresholdNotificationSentList": {
-            //         "thresholdNotificationSentItem": []
-            //     }
-            // },
+            {
+                "billingPeriod": {
+                    "startDate": "2023-09-01T00:00:00+01:00",
+                    "endDate": "2023-09-30T00:00:00+01:00"
+                },
+                "productList": {
+                    "productItem": [{
+                        "productId": 13661,
+                        "accumulatedUsage": 6,
+                        "productCapacity": 0,
+                        "modificationReason": "SELF",
+                        "effectiveDateTime": "2024-06-20T00:00:00+01:00"
+                    }]
+                },
+                "thresholdNotificationSentList": {
+                    "thresholdNotificationSentItem": []
+                }
+            },
             {
                 "billingPeriod": {
                     "startDate": "2023-10-01T00:00:00+01:00",
@@ -402,10 +403,7 @@ const json = {
                 }
             }
         ]
-    },
-    "successfulResponse": true
-};
-
-export default json;
+    }
+}
 
 

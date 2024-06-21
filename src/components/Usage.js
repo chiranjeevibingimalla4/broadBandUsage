@@ -4,7 +4,7 @@ import DATA from "./GraphData";
 
 
 
-console.log(DATA);
+// console.log(DATA);
 
 const Usage = ({mode,minWidth, width,minHeight, height,gradients,xaxisProps,...otherProps }) => {
   return (

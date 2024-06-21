@@ -4,8 +4,7 @@ const FormatXaxis = ({x, y, payload, dy})=>{
     // const dateValue = new Date(payload.value);
     
     const item = DATA.find(d => d.id === payload.value );
-    console.log(payload);
-    // transform={`translate(${x},${y})`}
+
     return (
       <g >
         <text className="font-medium text-sm" x={x} y={y} dy={dy[0]} textAnchor="middle" fill="#000">
